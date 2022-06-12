@@ -34,7 +34,7 @@ def update_status(_current_playing: typing.List[typing.Union[str, str, str]]) ->
                            current["item"]["artists"][0]["name"]
     if _current_playing != [track, album, artist]:
         vk.status.set(text=Settings.STATUS.format(track=track, album=album, artist=artist))
-        print("Играет: {track} - {artist}")
+        print("Играет:", track, "-", artist)
     
     if _current_playing is None:
         raise

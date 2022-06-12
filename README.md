@@ -69,7 +69,7 @@
 
 7. **Заполним строку SCOPE**
 
-    Ее тоже лучше оставить, кто хочет разобраться с этим, сюда: [тык](https://developer.spotify.com/documentation/general/guides/authorization/scopes/)
+    Ее тоже лучше оставить, кто хочет разобраться с этим, сюда: [тык](https://developer.spotify.com/documentation/general/guides/authorization/scopes/).
 
 8. **Заполним строку VK_TOKEN**
 
@@ -80,7 +80,7 @@
 
 9. **Заполним строку LANGUAGE**
 
-    Строка, в которую вписываем наш язык. Список всех языков [тут](https://www.loc.gov/standards/iso639-2/php/code_list.php)
+    Строка, в которую вписываем наш язык. Список всех языков [тут](https://www.loc.gov/standards/iso639-2/php/code_list.php). Лично мне подошли коды из двух знаков: RU, EN и так далее.
 
 ## Запуск (Start)
 
