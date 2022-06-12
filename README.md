@@ -37,7 +37,7 @@
         USERNAME = ""
         SCOPE = "user-read-playback-state user-library-read"
         VK_TOKEN= ""
-        LANGUAGE = "RUS"
+        LANGUAGE = ""
     ```
 
 2. **Заполним строку MAIN_STATUS**
