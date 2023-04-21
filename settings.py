@@ -5,6 +5,6 @@ class Settings:
     CLIENT_SECRET = ""
     REDIRECT_URI = "http://localhost:8888/callback"
     USERNAME = ""
-    SCOPE = ""
+    SCOPE = "user-read-playback-state user-library-read"
     VK_TOKEN= ""
-    LANGUAGE = ""
+    LANGUAGE = "RU"
