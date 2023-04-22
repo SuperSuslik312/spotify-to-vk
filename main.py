@@ -33,7 +33,7 @@ def update_status(_current_playing: typing.List[typing.Union[str, str, str]]) ->
                            current["item"]["album"]["name"], \
                            current["item"]["artists"][0]["name"]
     if _current_playing != [track, album, artist]:
-        search_result = vk.audio.search(q=f"{artist} {track}")
+        search_result = vk.audio.search(q=f"{track} {artist}")
         if search_result["count"] == 0:
             vk.status.set(text=Settings.STATUS.format(track=track, album=album, artist=artist))
         else:
